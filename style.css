@@ -1,0 +1,128 @@
+:root{
+    --primary:   #9933ff;
+    --red:#ff3333;
+}
+
+marquee{
+    font-size: 20px;
+    margin: 5px;
+    font-weight: 700;
+
+}
+.top-td{
+    height:40px;
+}
+div{
+    margin-top:20px;
+}
+td{
+    height:33px;
+}
+.faq-item{
+    border: 5px double var(--primary);
+    padding:23px;
+    margin:5px;
+    border-radius:30px;
+}
+footer{
+    margin-top:20px;
+    border-radius: 10px;
+    background: var(--primary);
+    color: #fff;
+    font-size: 18px;
+    line-height: 0px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: -30px;
+}
+.vid-vid{
+    text-align: center;
+}
+.flipbox-container{
+    border-radius: 20px;
+    text-align: center;
+}
+.flip-box{
+    width:47%;
+    display: inline-block;
+    border: 5px double var(--primary);
+    border-radius: 40px;
+}
+table{
+    border: 6px solid var(--primary);
+    width:94%;
+    border-radius: 20px;
+}
+
+table tr td{
+    border: 3px solid var(--primary);
+    width: 31%;
+    border-radius:5px;
+}
+.flip-box:hover{
+    border-color: var(--red);
+}
+.box-img{
+    width:17vw;
+}
+.sub-text{
+    display: inline-block;
+    font-size: 30px;
+}
+.heading{
+    text-align: center;
+    font-size: 2em;
+}   
+header{
+    text-align: left;
+    width: 90%;
+    border-radius: 18px;
+    background: var(--primary);
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+.icon{
+    font-size:30px;
+    display:inline-block;
+    width: 25%;
+font-weight: 900;
+    margin-left: 100px;
+}
+.menu-list{
+    display: inline-block;
+    list-style: none;
+    font-size:25px;
+}
+.menu-list a{
+    color: #fff;
+    text-decoration: none;
+    margin: 3px;
+    padding: 3px;
+}
+.slider{
+    background: var(--primary);
+    color: #fff;
+    font-weight: 900;
+    padding: 30px;
+    border-radius: 30px;
+    height: 300px;
+
+}
+.slider-text{
+    width:70%
+}
+.slider-text h3{
+font-size:50px;
+text-align: center;
+}
+.slider-text span{
+  
+    font-size:26px;
+    }
+.slider-img img{
+    width: 30%;
+    float: right;
+    margin-top:-180px;
+    width: 300px;
+    margin-right: 50px;
+}
