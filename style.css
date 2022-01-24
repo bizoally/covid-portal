@@ -1,5 +1,5 @@
 :root{
-    --primary:   #9933ff;
+    --primary:   #1b4dc1;
     --red:#ff3333;
 }
 
@@ -18,11 +18,15 @@ div{
 td{
     height:33px;
 }
+.faq-item:hover{
+    background-color: snow;
+}
 .faq-item{
     border: 5px double var(--primary);
     padding:23px;
     margin:5px;
     border-radius:30px;
+    background:#eee;
 }
 footer{
     margin-top:20px;
@@ -43,24 +47,30 @@ footer{
     text-align: center;
 }
 .flip-box{
+    background:#eee;
     width:47%;
     display: inline-block;
     border: 5px double var(--primary);
     border-radius: 40px;
 }
 table{
+    background:#eee;
     border: 6px solid var(--primary);
     width:94%;
     border-radius: 20px;
 }
-
+table tr td:hover{
+    background:snow;
+}
 table tr td{
     border: 3px solid var(--primary);
     width: 31%;
     border-radius:5px;
+
 }
 .flip-box:hover{
     border-color: var(--red);
+    background:snow;
 }
 .box-img{
     width:17vw;
