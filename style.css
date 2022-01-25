@@ -31,7 +31,7 @@ td{
 footer{
     margin-top:20px;
     border-radius: 10px;
-    background: var(--primary);
+    background: linear-gradient(0deg, #434972, var(--primary));
     color: #fff;
     font-size: 18px;
     line-height: 0px;
@@ -40,7 +40,15 @@ footer{
     margin-bottom: -30px;
 }
 .vid-vid{
-    text-align: center;
+    padding: 50px;
+}
+.vid-content{
+    padding: 30px;
+    font-size:17px;
+    float: right;
+}
+.vid-content:after{
+    clear:both ;
 }
 .flipbox-container{
     border-radius: 20px;
@@ -53,16 +61,21 @@ footer{
     border: 5px double var(--primary);
     border-radius: 40px;
 }
-table{
+iframe{
+    border: 3px solid var(--primary);
+    padding: 10px;
+    background: #eee;
+}
+.table{
     background:#eee;
     border: 6px solid var(--primary);
     width:94%;
     border-radius: 20px;
 }
-table tr td:hover{
+.table tr td:hover{
     background:snow;
 }
-table tr td{
+.table tr td{
     border: 3px solid var(--primary);
     width: 31%;
     border-radius:5px;
@@ -87,7 +100,7 @@ header{
     text-align: left;
     width: 90%;
     border-radius: 18px;
-    background: var(--primary);
+    background: linear-gradient(110deg, #434972, var(--primary));
     color: #fff;
     border-bottom: 5px solid #fff;
 }
@@ -132,7 +145,7 @@ text-align: center;
 .slider-img img{
     width: 30%;
     float: right;
-    margin-top:-180px;
+    margin-top:-250px;
     width: 300px;
     margin-right: 50px;
 }
